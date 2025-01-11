@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel ="stylesheet" href="/css/intro.css">
+</head>
+<body>
+    <form action="link.html" method="get">
+        <input list="car">
+            <datalist id="car">
+                <option  value="1">
+                    1
+                </option>
+                <option value="2">
+                    2
+                </option>
+                <option value="3">
+                    3
+                </option>
+                <option value="4">
+                    4
+                </option>   
+            </datalist>
+       <input type="submit" value="submit the form">
+    </form>
+    <form action="http://www.example.com/subscribe.php"
+method="get">
+<p>This is where the form controls will appear.
+</p>
+</form>
+<form action="/semantic_elements.html" >
+<p>Username
+    <input type="text" name="username" size="15" maxlength="30"><br><br>
+
+    Password
+    <input type="password" name="password" size="15" maxlength="20">
+</p>
+</form>
+
+<table  border ="15" width="400" cellpadding="10" cellspacing="5">
+    <tr>
+    <th width="150"></th>
+    <th>Withdrawn</th>
+    <th>Credit</th>
+    <th width="150">Balance</th>
+    </tr>
+    <tr>
+    <th>January</th>
+    <td>250.00</td>
+    <td>660.50</td>
+    <td>410.50</td>
+    </tr>
+    <tr>
+    <th>February</th>
+    <td>135.55</td>
+    <td>895.20</td>
+    <td>1170.15</td>
+    </tr>
+    </table>
+
+<br>
+    <table border="2" bgcolor="red">
+        <thead>
+        <tr>
+        <th></th>
+        <th scope="col">Home starter hosting</th>
+        <th scope="col">Premium business hosting</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+        <th scope="row">Disk space</th>
+        <td>250mb</td>
+        <td>1gb</td>
+        </tr>
+        <tr>
+        <th scope="row">Bandwidth</th>
+        <td>5gb per month</td>
+        <td>50gb per month</td>
+        </tr>
+        <!-- more rows like the two above here -->
+        </tbody>
+        <tfoot>
+        <tr>
+        <td></td>
+        <td colspan="2">Sign up now and save 10%!</td>
+        </tr>
+        </tfoot>
+        </table>
+
+
+</body>
+</html>
